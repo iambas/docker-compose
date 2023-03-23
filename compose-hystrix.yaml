@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  hystrix:
+    image: mlabouardy/hystrix-dashboard
+    ports:
+      - 9002:9002
